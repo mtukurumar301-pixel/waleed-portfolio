@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>project-survey.html — Waleed / freeCodeCamp Journey</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<div class="topbar">
+  <span class="who">waleed<span class="mono" style="color:var(--text-dim)">.dev</span></span>
+  <button class="menu-btn" aria-label="Toggle menu" aria-expanded="false">☰ files</button>
+</div>
+
+<div class="app-shell">
+  <aside class="explorer">
+    <div class="explorer-head">
+      <div class="prompt">waleed@freecodecamp:~$</div>
+      <div class="who">waleed.dev</div>
+    </div>
+    <div class="explorer-label">portfolio /</div>
+    <nav>
+      <ul>
+        <li><a href="index.html"><span class="dot"></span>index.html</a></li>
+        <li><a href="about.html"><span class="dot"></span>about.html</a></li>
+        <li><a href="journey.html"><span class="dot"></span>journey.html</a></li>
+        <li><a href="skills.html"><span class="dot"></span>skills.html</a></li>
+        <li><a href="projects.html"><span class="dot"></span>projects.html</a></li>
+        <li>
+          <ul>
+            <li><a href="project-tribute.html"><span class="dot"></span>tribute.html</a></li>
+            <li><a href="project-survey.html" class="active"><span class="dot"></span>survey-form.html</a></li>
+            <li><a href="project-techdoc.html"><span class="dot"></span>tech-docs.html</a></li>
+          </ul>
+        </li>
+        <li><a href="certificate.html"><span class="dot"></span>certificate.html</a></li>
+        <li><a href="contact.html"><span class="dot"></span>contact.html</a></li>
+      </ul>
+    </nav>
+    <div class="explorer-foot">git branch: <span style="color:var(--accent)">main</span><br>status: learning, daily commits</div>
+  </aside>
+
+  <main class="editor">
+    <div class="tab-bar">
+      <div class="traffic"><span></span><span></span><span></span></div>
+      <div class="filename"><b>project-survey.html</b></div>
+      <div class="badge">HTML</div>
+    </div>
+
+    <div class="editor-content">
+
+      <div class="comment-label">project 2 of 5</div>
+      <h1>Survey Form</h1>
+      <span class="chip done">done</span>
+      <p style="max-width:60ch; color:var(--text-dim); font-size:1.05rem; margin-top:14px;">
+        A form collecting feedback, built to freeCodeCamp's test suite:
+        every input needs an id, a matching label, and the right input type.
+      </p>
+      <div class="card" style="margin-top:28px;">
+        <h3>What I practiced</h3>
+        <ul style="color:var(--text-dim); margin-top:10px;">
+          <li>Matching <code>&lt;label for&gt;</code> to input <code>id</code> correctly</li>
+          <li>Choosing input types: email, number, radio, checkbox, textarea</li>
+          <li>Marking required fields so the browser validates before submit</li>
+        </ul>
+      </div>
+      <div class="card" style="margin-top:18px;">
+        <h3>What I'd change now</h3>
+        <p style="color:var(--text-dim); margin:0;">
+          Add proper error messaging instead of relying only on the
+          browser's default validation styling.
+        </p>
+      </div>
+      <a href="projects.html" class="btn" style="margin-top:24px;">← back to projects</a>
+
+      <div class="editor-footer">
+        <span>// built while learning to code — 2026</span>
+        <span>freeCodeCamp: Responsive Web Design</span>
+      </div>
+    </div>
+  </main>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>

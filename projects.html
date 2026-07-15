@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>projects.html — Waleed / freeCodeCamp Journey</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<div class="topbar">
+  <span class="who">waleed<span class="mono" style="color:var(--text-dim)">.dev</span></span>
+  <button class="menu-btn" aria-label="Toggle menu" aria-expanded="false">☰ files</button>
+</div>
+
+<div class="app-shell">
+  <aside class="explorer">
+    <div class="explorer-head">
+      <div class="prompt">waleed@freecodecamp:~$</div>
+      <div class="who">waleed.dev</div>
+    </div>
+    <div class="explorer-label">portfolio /</div>
+    <nav>
+      <ul>
+        <li><a href="index.html"><span class="dot"></span>index.html</a></li>
+        <li><a href="about.html"><span class="dot"></span>about.html</a></li>
+        <li><a href="journey.html"><span class="dot"></span>journey.html</a></li>
+        <li><a href="skills.html"><span class="dot"></span>skills.html</a></li>
+        <li><a href="projects.html" class="active"><span class="dot"></span>projects.html</a></li>
+        <li>
+          <ul>
+            <li><a href="project-tribute.html"><span class="dot"></span>tribute.html</a></li>
+            <li><a href="project-survey.html"><span class="dot"></span>survey-form.html</a></li>
+            <li><a href="project-techdoc.html"><span class="dot"></span>tech-docs.html</a></li>
+          </ul>
+        </li>
+        <li><a href="certificate.html"><span class="dot"></span>certificate.html</a></li>
+        <li><a href="contact.html"><span class="dot"></span>contact.html</a></li>
+      </ul>
+    </nav>
+    <div class="explorer-foot">git branch: <span style="color:var(--accent)">main</span><br>status: learning, daily commits</div>
+  </aside>
+
+  <main class="editor">
+    <div class="tab-bar">
+      <div class="traffic"><span></span><span></span><span></span></div>
+      <div class="filename"><b>projects.html</b></div>
+      <div class="badge">HTML</div>
+    </div>
+
+    <div class="editor-content">
+
+      <div class="comment-label">ls ./projects</div>
+      <h1>Responsive Web Design projects</h1>
+      <p style="max-width:60ch; color:var(--text-dim); font-size:1.05rem;">
+        freeCodeCamp requires five projects to earn this certification.
+        Here's where each one stands.
+      </p>
+
+      <div class="grid cols-2" style="margin-top:32px;">
+        <div class="card project-card">
+          <div class="top"><h3>Tribute Page</h3><span class="chip done">done</span></div>
+          <div class="file">tribute.html</div>
+          <p style="color:var(--text-dim); font-size:.92rem; margin:0;">A page honoring someone I admire — my first real layout with semantic HTML.</p>
+          <a href="project-tribute.html" class="btn" style="margin-top:8px;">Open file →</a>
+        </div>
+        <div class="card project-card">
+          <div class="top"><h3>Survey Form</h3><span class="chip done">done</span></div>
+          <div class="file">survey-form.html</div>
+          <p style="color:var(--text-dim); font-size:.92rem; margin:0;">A form with proper labels, input types, and validation basics.</p>
+          <a href="project-survey.html" class="btn" style="margin-top:8px;">Open file →</a>
+        </div>
+        <div class="card project-card">
+          <div class="top"><h3>Technical Documentation Page</h3><span class="chip done">done</span></div>
+          <div class="file">tech-docs.html</div>
+          <p style="color:var(--text-dim); font-size:.92rem; margin:0;">A fixed sidebar nav with jump-links — the pattern this whole site's nav is built on.</p>
+          <a href="project-techdoc.html" class="btn" style="margin-top:8px;">Open file →</a>
+        </div>
+        <div class="card project-card">
+          <div class="top"><h3>Product Landing Page</h3><span class="chip progress">in progress</span></div>
+          <div class="file">landing.html</div>
+          <p style="color:var(--text-dim); font-size:.92rem; margin:0;">Next up: a marketing page with a responsive nav and pricing section.</p>
+        </div>
+        <div class="card project-card">
+          <div class="top"><h3>Personal Portfolio Webpage</h3><span class="chip done">done — this site</span></div>
+          <div class="file">index.html</div>
+          <p style="color:var(--text-dim); font-size:.92rem; margin:0;">This is it — you're looking at the fifth project right now.</p>
+          <a href="index.html" class="btn" style="margin-top:8px;">Back to home →</a>
+        </div>
+      </div>
+
+      <div class="editor-footer">
+        <span>// built while learning to code — 2026</span>
+        <span>freeCodeCamp: Responsive Web Design</span>
+      </div>
+    </div>
+  </main>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
